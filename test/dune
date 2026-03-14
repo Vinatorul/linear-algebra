@@ -1,3 +1,9 @@
 (test
  (name test_matrix)
+ (modules test_matrix)
+ (libraries linear_algebra alcotest))
+
+(test
+ (name test_vector)
+ (modules test_vector)
  (libraries linear_algebra alcotest))
