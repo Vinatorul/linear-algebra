@@ -1,3 +1,4 @@
 (library
  (name linear_algebra)
- (public_name linear_algebra))
+ (public_name linear_algebra)
+ (instrumentation (backend bisect_ppx)))

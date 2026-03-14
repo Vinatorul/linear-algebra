@@ -20,4 +20,5 @@
  (depends
   (ocaml (>= 4.14))
   (dune (>= 3.0))
-  (alcotest :with-test)))
+  (alcotest :with-test)
+  (bisect_ppx :with-test)))
